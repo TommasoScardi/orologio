@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+body {
+  background-color: #262626;
+  font-family: 'Rubik', sans-serif;
+}
+
+.time {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50px;
+  width: 323px;
+  background-color: #fff;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.numbers {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.numbers li {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.numbers.hoursFirst, .numbers.hoursLast {
+  background-color: #ff7468;
+  color: #422a2d;
+}
+
+.numbers.minutesFirst, .numbers.minutesLast {
+  background-color: #2198dd;
+  color: #fff;
+}
+
+.numbers.secondsFirst, .numbers.secondsLast {
+  background-color: #f2c941;
+  color: #212121;
+}
+/*# sourceMappingURL=style.css.map */
